@@ -1,0 +1,7 @@
+avr/
+bin/
+include/
+lib/
+libexec/
+share/
+*.tar.bz2

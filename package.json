@@ -1,0 +1,24 @@
+{
+    "name": "toolchain-modm-avr-gcc",
+    "version": "9.2.0",
+    "description": "Modern C++ using GCC Toolchain for Microchip AVR microcontrollers",
+    "keywords": [
+      "toolchain",
+      "build tools",
+      "compiler",
+      "assembler",
+      "linker",
+      "preprocessor",
+      "microchip",
+      "avr",
+      "c++17"
+    ],
+    "homepage": "https://gcc.gnu.org/wiki/avr-gcc",
+    "license": "GPL-2.0-or-later",
+    "system": [
+      "linux_x86_64"
+    ],
+    "build": {
+        "extraScript": "get_avr_gcc.py"
+    }
+  }
