@@ -17,9 +17,6 @@ jobs:
          ls
          python3 get_avr_gcc.py
 
-      - name: Create tarball
-        run: |
-         tar -cvjSf toolchain-avr-gcc.tar.bz2 *
       - name: Upload artifact
         uses: actions/upload-artifact@v2
         with:
