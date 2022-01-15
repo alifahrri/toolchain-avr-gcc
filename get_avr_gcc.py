@@ -29,7 +29,7 @@ parent_dir = path.parents[1]
 for inner_path in path.iterdir():
     inner_path.rename(parent_dir/inner_path.name)
 copy_tree("avr-gcc/avr-binutils/avr/", "avr/")
-copy_tree("avr-gcc/avr-binutils/bin/", "avr/bin/")
+copy_tree("avr-gcc/avr-binutils/bin/", "bin/")
 copy_tree("avr-gcc/avr-binutils/share/", "share/")
 
 import shutil
